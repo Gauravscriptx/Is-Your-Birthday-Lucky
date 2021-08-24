@@ -18,3 +18,6 @@ const checkIsNumberLucky = (sumOfDate, numberToCheck) => {
   }
   showMessage(`${numberToCheck} is not that lucky 😕`);
 };
+const showMessage = (message) => {
+  displayMessage.innerText = message;
+};
