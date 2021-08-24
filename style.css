@@ -1,0 +1,24 @@
+:root {
+  --background-dark: #7c3aed;
+  --black: #000;
+}
+
+html {
+  background-color: var(--background-dark);
+  color: var(--black);
+  height: 100%;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 300px;
+  margin: auto auto;
+}
